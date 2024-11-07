@@ -1,0 +1,78 @@
+.navbar{
+    display:flex;
+    justify-content:space-around;
+    padding: 10px;
+    background: #171717;
+    box-shadow: 0 1px 3px -2px black;
+}
+.navlogo{
+    display: flex;
+    align-items:center;
+    gap: 10px;
+}
+.navlogo p {
+    font-weight: 600;
+    font-family:'Courier New', Courier, monospace;
+    font-size:25px;
+    color: white;
+}
+.navmenu{
+    display: flex;
+    align-items: center;
+    list-style:none;
+    gap: 25px;
+    color: #626262;
+    font-size: 18px;
+    font-weight: 500;
+
+}
+.navmenu li{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    cursor: pointer;
+    color:white;
+}
+.navmenu hr{
+    border: none;
+    width: 80%;
+    height: 3px;
+    border-radius: 10px;
+    background: #FF4141;
+}
+.navlogin{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+.navlogin img{
+    width: 35px;
+}
+.navlogin button{
+    width: 115px;
+    height: 50px;
+    border-radius: 60px;
+    border: 1px solid #7a7a7a;
+    color: black;
+    outline: none;
+    font-size: 17px;
+    cursor:pointer;
+    font-weight: 300;
+    background: whitesmoke;
+}
+.navlogin button:active {
+    background: #7a7a7a;
+}
+.navNotiCounter{
+    width: 22px;
+    height: 22px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -35px;
+    margin-left: -45px;
+    background:red;
+    color: white;
+    border-radius: 15px;
+    font-size: 14px;
+}
